@@ -3,7 +3,7 @@ import "./CreateCard.css";
 import axios from "axios";
 import { withRouter } from "react-router-dom";
 
-function CreateCard(props) {
+async function CreateCard(props) {
     const [input, setInput] = useState({
         title: '',
         content: '',
