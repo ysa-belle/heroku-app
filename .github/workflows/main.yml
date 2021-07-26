@@ -13,6 +13,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 
         with:
           heroku_api_key: 09e16c86-e708-4e43-967d-3488fdc33631
-          heroku_app_name: "immense-brook-98820" #Must be unique in Heroku
+          heroku_app_name: "immense-brook-98820" 
           heroku_email: "y.lacasandile@gmail.com"
 
