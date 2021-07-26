@@ -27,7 +27,7 @@ async function CreateCard(props) {
         })
         .then(jsonRes => setCards(jsonRes))
         .catch(err => console.log(err));
-    }, [cards])
+    }, [])
 
     function handleChange(event) {
         const{name,value} = event.target;
