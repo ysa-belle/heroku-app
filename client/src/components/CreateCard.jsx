@@ -48,6 +48,7 @@ async function CreateCard(props) {
             content: input.content,
             image: input.image
         }
+        useEffect( () => {
         axios.post('/create', newCard)
         alert('card added')
         setInput({
@@ -55,6 +56,7 @@ async function CreateCard(props) {
             content: " ",
             image: " "
         })
+    }, [])
         props.history.push("/cards");
     }
     return <div className="container">
