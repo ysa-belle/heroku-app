@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      - uses: akhileshns/heroku-deploy@v3.12.12 
         with:
           heroku_api_key: 09e16c86-e708-4e43-967d-3488fdc33631
           heroku_app_name: "immense-brook-98820" #Must be unique in Heroku
